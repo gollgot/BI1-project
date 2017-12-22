@@ -8,3 +8,9 @@ Jeux de données trouvés:
 
  - [Consommation annuelle régionale d'électricité (2006 à 2016)](https://rte-opendata.opendatasoft.com/explore/dataset/conso_nette_regionale/table/?flg=fr&disjunctive.code_insee&disjunctive.regions_nouvelles&refine.annee=2016)
  - [Production régionale annuelle des énergies renouvelables (2008 à 2016)](https://rte-opendata.opendatasoft.com/explore/dataset/prod_region_annuelle_enr/export/?disjunctive.regions_nouvelles&sort=-annee&refine.annee=2016)
+
+
+Idée:
+
+ - Prendre le nombre d'entreprise dans les régions, car il se peut qu'une région consomme beaucoup d'énergie car elle a beaucoup de grande société qui y sont implémentées.
+ - Mettre dans le graphique la production d'énergie renouvelable par région. Voir si tel ou tel régions consomme beaucoup mais en produit peut-être beaucoup aussi (d'énergie renouvelable)

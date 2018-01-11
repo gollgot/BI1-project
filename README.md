@@ -14,3 +14,7 @@ Idée:
 
  - Prendre le nombre d'entreprise dans les régions, car il se peut qu'une région consomme beaucoup d'énergie car elle a beaucoup de grande société qui y sont implémentées.
  - Mettre dans le graphique la production d'énergie renouvelable par région. Voir si tel ou tel régions consomme beaucoup mais en produit peut-être beaucoup aussi (d'énergie renouvelable)
+
+
+
+ Pour avec 2 axes Y dans power BI: https://docs.microsoft.com/fr-fr/power-bi/power-bi-visualization-combo-chart

@@ -1,7 +1,7 @@
 <?php
 
     // Get json data on the "rte-opendata" website
-    $json = file_get_contents('https://rte-opendata.opendatasoft.com/api/records/1.0/search/?dataset=conso_nette_regionale&sort=regions_nouvelles&facet=annee&facet=code_insee&facet=regions_nouvelles&refine.annee=2015');
+    $json = file_get_contents('https://rte-opendata.opendatasoft.com/api/records/1.0/search/?dataset=conso_nette_regionale&rows=13&sort=regions_nouvelles&facet=annee&facet=code_insee&facet=regions_nouvelles&refine.annee=2016');
     $obj = json_decode($json);
 
     // Array will contain each entries for the final CSV
@@ -18,7 +18,7 @@
     }
 
     // Create a csv file and add into it each entry of the res array (will automatically formatted as a csv file)
-    $fp = fopen('file.csv', 'w');
+    $fp = fopen('../../data/processed/consumption.csv', 'w');
     foreach ($res as $fields) {
         fputcsv($fp, $fields);
     }

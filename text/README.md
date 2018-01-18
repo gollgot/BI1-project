@@ -1,1 +1,3 @@
-# BI1-project
+# Rapport
+
+## Introduction

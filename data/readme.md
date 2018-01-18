@@ -24,4 +24,4 @@ Voici les instructions à suivre pour passer des données bruts aux données tra
  - Lancez les scripts PHP (disponible dans le dossier : `/code/scripts/`) depuis votre serveur.
  - Attendez que l'éxécution des scripts se termine, puis allez dans le dossier `/data/processed/` et vous trouverez les deux fichiers contenant les données traitées sous le format .csv
 
-\* *Il est possible de sauver que les scripts dans votre serveur web et non l'entier du repository, si vous choisissez cette option il faudra changer dans les scripts le chemin de génération du fichier de sortie .csv*
+\* *Il est possible de sauver que les scripts dans votre serveur web et non l'entier du repository, ou même de lancer les scripts sur un invite de commande. Si vous choisissez une de ces options il faudra changer dans les scripts le chemin de génération du fichier de sortie .csv*

@@ -13,4 +13,6 @@ Ce second chiffre est malheureusement totalement faux, car en réalité il faut 
 Cette visualisation est, pour moi, très difficile à comprendre comparé a un graphique en histogrammes ou la comparaison se fait en un clin d'oeil.
 
 ## Chiffres finaux
+Le graphique `conso_prod-tot.png` est un graphique accolé final qui montre la consommation et la production (totale) électrique en GWh par région de France, le tout trié par la consommation de manière descendant.
 
+Le graphique `conso_prod-tot_prod-nucl.png.png` est le même graphique que le précédent avec en plus, la production d'énergie nucléaire.

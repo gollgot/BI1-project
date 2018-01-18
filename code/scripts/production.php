@@ -1,6 +1,6 @@
 <?php
 
-    // Get json data on the "rte-opendata" website
+    // Get json data on the "rte-opendata" API (filter by year 2016)
     $json = file_get_contents('https://rte-opendata.opendatasoft.com/api/records/1.0/search/?dataset=prod_region_filiere&rows=13&sort=regions_nouvelles&facet=annee&facet=regions_nouvelles&refine.annee=2016');
     $obj = json_decode($json);
 
@@ -13,7 +13,7 @@
 
     // Get datas we need and add each entry in the res array
     foreach ($obj->records as $record) {
-        // Each type of production
+        // Each type of production (set 0 if empty)
         $region = $record->fields->regions_nouvelles;
         $nuclear = !empty($record->fields->production_nucleaire_gwh) ? $record->fields->production_nucleaire_gwh : 0;
         $thermal = !empty($record->fields->production_thermique_gwh) ? $record->fields->production_thermique_gwh : 0;
@@ -29,10 +29,11 @@
 
     // Create a csv file and add into it each entry of the res array (will automatically formatted as a csv file)
     $fp = fopen('../../data/processed/production.csv', 'w');
+    fwrite($fp, "\xEF\xBB\xBF"); // set right encodage for excel
     foreach ($res as $fields) {
         fputcsv($fp, $fields);
     }
     fclose($fp);
 
-    echo "terminé";
+    echo "Finished, processed file generated at : /data/processed/production.csv";
 ?>

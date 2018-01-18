@@ -1,6 +1,6 @@
 <?php
 
-    // Get json data on the "rte-opendata" website
+    // Get json data on the "rte-opendata" API (filter by year 2016)
     $json = file_get_contents('https://rte-opendata.opendatasoft.com/api/records/1.0/search/?dataset=conso_nette_regionale&rows=13&sort=regions_nouvelles&facet=annee&facet=code_insee&facet=regions_nouvelles&refine.annee=2016');
     $obj = json_decode($json);
 
@@ -18,11 +18,12 @@
     }
 
     // Create a csv file and add into it each entry of the res array (will automatically formatted as a csv file)
-    $fp = fopen('../../data/processed/consumption.csv', 'w');
+    $fp = fopen('../../data/processed/consommation.csv', 'w');
+    fwrite($fp, "\xEF\xBB\xBF"); // set right encodage for excel
     foreach ($res as $fields) {
         fputcsv($fp, $fields);
     }
     fclose($fp);
 
-    echo "terminé";
+    echo "Finished, processed file generated at : /data/processed/consommation.csv";
 ?>

@@ -1,14 +1,14 @@
-Région;Production nucléaire;Production thermique;Production hydraulique;Production éolienne;Production solaire;Production bioénergies;Production totale
-Auvergne-Rhône-Alpes;74981.8;2625;28392.5;857.7;821.1;971;108649.1
-Bourgogne-Franche-Comté;0;657.8;951.3;779.4;215.5;176.3;2780.3
-Bretagne;0;576.8;585.1;1479.4;196.6;311.4;3149.3
-Centre-Val de Loire;75741;280.4;128.1;1802;244.8;432.3;78628.6
-Corse;0;863.1;471.3;32.9;156.6;9.2;1533.1
-Grand-Est;82739;10204;9032.2;4937.8;484.8;797.3;108195.1
-Hauts-de-France;31227.3;8435.5;15.6;4942.5;148;949.2;45718.1
-Ile-de-France;0;2316.8;58;61;69.7;1239.3;3744.8
-Normandie;57282.8;5099.7;131;1183.9;125.4;422.9;64245.7
-Nouvelle-Aquitaine;42207.8;916;3936.4;924.1;2312.7;1403.1;51700.1
-Occitanie;19804.2;299;11123;2575.2;1848.9;762.5;36412.8
-Pays de la Loire;0;4034.7;18.8;1262;441;334.7;6091.2
-Provence-Alpes-Côte d'Azur;0;9025.8;9169.2;108.6;1349.5;915.8;20568.9
+ï»¿RÃ©gion,"Production nuclÃ©aire","Production thermique","Production hydraulique","Production Ã©olienne","Production solaire","Production bioÃ©nergies","Production totale"
+Auvergne-RhÃ´ne-Alpes,74981.8,2625,28392.5,857.7,821.1,971,108649.1
+Bourgogne-Franche-ComtÃ©,0,657.8,951.3,779.4,215.5,176.3,2780.3
+Bretagne,0,576.8,585.1,1479.4,196.6,311.4,3149.3
+"Centre-Val de Loire",75741,280.4,128.1,1802,244.8,432.3,78628.6
+Corse,0,863.1,471.3,32.9,156.6,9.2,1533.1
+Grand-Est,82739,10204,9032.2,4937.8,484.8,797.3,108195.1
+Hauts-de-France,31227.3,8435.5,15.6,4942.5,148,949.2,45718.1
+Ile-de-France,0,2316.8,58,61,69.7,1239.3,3744.8
+Normandie,57282.8,5099.7,131,1183.9,125.4,422.9,64245.7
+Nouvelle-Aquitaine,42207.8,916,3936.4,924.1,2312.7,1403.1,51700.1
+Occitanie,19804.2,299,11123,2575.2,1848.9,762.5,36412.8
+"Pays de la Loire",0,4034.7,18.8,1262,441,334.7,6091.2
+"Provence-Alpes-CÃ´te d'Azur",0,9025.8,9169.2,108.6,1349.5,915.8,20568.9

@@ -1,9 +1,11 @@
 # Scripts
 
-## Consommation.php
-Se script va récupérer les données
+## consommation.php
+Ce script va récupérer le JSON en provenance de l'API. Une fois celui-ci récupéré, je boucle à travers les 13 entrées et écrit dans un fichier CSV le nom de la région (string) et sa consommation (float).
 
-## Utilisation
-le plus simple est de sauvegarder l'entier du repository (projet BI1 disponible [ici](https://github.com/gollgot/BI1-project)) dans un serveur WEB, et de lancer les scripts PHP depuis votre serveur. Si vous avez gardé la même arborescence, vous allez retrouver vos données traitées dans le dossier `/data/processed/`.
+Le traitement effectué sur ce jeu de données est plutôt de la mise en forme que du nettoyage. J'aurai pu récupérer un fichier CSV depuis le site d'open-data mais beaucoup de données entièrement inutiles (comme des milliers de points géocode) étaient présentes. C'est pour cela que j'ai décider de refaire une mise en forme.
 
-Si vous voulez importer que les scripts et ne pas garder tout les autres dossier, il vous faudra changer l'emplacement du fichier de sortie dans les codes sources.
+## production.php
+Ce script va récupérer le JSON en provenance de l'API. Une fois celui-ci récupéré, je boucle à travers les 13 entrées et écrit dans un fichier CSV le nom de la région (string) ainsi que la production (float).
+
+Le traitement effectué en plus sur ce jeu de données est le calcul d'une production totale (float), donc toutes énergies confonduent. De plus je vais remplacer les valeurs vide par un chiffre (0) pour maintenir l'unicité des valeurs.

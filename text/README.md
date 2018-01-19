@@ -1,7 +1,7 @@
 # Rapport final
 
 ## Introduction
-L'électricité est un sujet très intéressant car chaque pays à son propre réseau et donc des régions consommatrices et productrices. Il est difficile de se faire des idées de l'ampleur de ces quantités de GWh produits ou consommés chaque année. C'est pour cela que j'ai décidé de prendre comme sujet pour mener mon analyse : la consommation et la production d'électricité pour chaque région de France, ainsi je vais pouvoir répondre à plusieurs questions tels que :
+L'électricité est un sujet très intéressant car chaque pays à son propre réseau et donc des régions consommatrices et productrices. Il est difficile de se faire des idées de l'ampleur de ces quantités de GWh produits ou consommés chaque année. C'est pour cela que j'ai décidé de prendre comme sujet pour mener mon analyse : la consommation et la production d'électricité pour chaque région de France, ainsi je vais pouvoir répondre à plusieurs questions telles que :
 
 - Chaque région peut-elle est autonome au niveau de l'électricité ?
 - Les régions qui produisent le plus sont-elles également celles qui consomment le plus ?

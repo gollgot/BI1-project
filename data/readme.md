@@ -3,6 +3,15 @@
 ## Données bruts
 Mes données bruts viennent d'une API (voir ci-dessous). J'ai décider de les récupérées via l'API fourni par le site qui fourni les données plutôt que leur fichier .csv. Car d'une part dans le fichier source il y avait une quantité astronomique de point géocode et d'autre part j'ai dû manipuler certaine données pour qu'elle affiche par exemple un 0 au lieu d'une chaîne vide, etc. J'ai donc pu nettoyer ces données pour ne garder que l'essentiel et sous un bon format.
 
+Données brut retournées par l'API:
+ - Année
+ - Code INSEE
+ - Région
+ - Consommation
+ - Geo Shape
+ - Geo Point
+
+
 ### Liens
 #### Consommation
  - Tableau des données relatives à la consommation annuelle régionale d'électricité en 2016 -> [ici](https://rte-opendata.opendatasoft.com/explore/dataset/conso_nette_regionale/table/?flg=fr&disjunctive.code_insee&disjunctive.regions_nouvelles&refine.annee=2016&sort=-annee)

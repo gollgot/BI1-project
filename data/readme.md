@@ -11,18 +11,26 @@ Données brut retournées par l'API:
  - Geo Shape
  - Geo Point
 
+Vous pouvez tout de même retrouver les fichiers .json brutes dans le dossier **raw**. Ces fichiers ont été généré le 19.01.2018. Les scripts utilisent l'API et non ces fichiers.
+
 
 ### Liens
 #### Consommation
  - Tableau des données relatives à la consommation annuelle régionale d'électricité en 2016 -> [ici](https://rte-opendata.opendatasoft.com/explore/dataset/conso_nette_regionale/table/?flg=fr&disjunctive.code_insee&disjunctive.regions_nouvelles&refine.annee=2016&sort=-annee)
  - API des données relatives à la consommation annuelle régionale d'électricité en 2016 -> [ici](https://rte-opendata.opendatasoft.com/api/records/1.0/search/?dataset=conso_nette_regionale&rows=13&sort=regions_nouvelles&facet=annee&facet=code_insee&facet=regions_nouvelles&refine.annee=2016)
 
+Date de l'utilisation : 19.01.2018
+
 #### Production
  - Tableau des données relatives à la production annuelle régionale d'électricité en 2016 -> [ici](https://rte-opendata.opendatasoft.com/explore/dataset/prod_region_filiere/table/?disjunctive.regions_nouvelles&sort=-annee&refine.annee=2016)
  - API des données relatives à la production annuelle régionale d'électricité en 2016 -> [ici](https://rte-opendata.opendatasoft.com/api/records/1.0/search/?dataset=prod_region_filiere&rows=13&sort=regions_nouvelles&facet=annee&facet=regions_nouvelles&refine.annee=2016)
 
+Date de l'utilisation : 19.01.2018
+
 ## Données traitées
 Les fichiers de données traitées `consommation.csv` et `production.csv` correspondent chacuns au script de même nom disponible dans le dossier `/code/scripts/`. Toutes les données de ces deux fichiers sont entièrement traitées, conforme au type dont nous avons besoin pour l'analyse et retournant des valeurs correcte et lisible.
+
+Pour avoir les détails du fonctionnement des scripts vous pouvez consulter **[cette page](https://github.com/gollgot/BI1-project/tree/master/code/README.md).**
 
 ## Types de données
 Les données ont deux types principaux. Une chaîne de caractères en ce qui concerne le nom des régions, et des valeurs flottantes pour les chiffre (consommation / production) en GWh.

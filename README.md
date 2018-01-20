@@ -3,7 +3,7 @@
 ## Résumé
 Le but de mon étude est de comparer la consommation et production électrique totale (en 2016 en GWh) de chaque région de France. Ainsi je pourrai répondre à plusieurs questions telles que :
 
-- Chaque région peut-elle est autonome au niveau de l'électricité ?
+- Chaque région peut-elle être autonome au niveau de l'électricité ?
 - Les régions qui produisent le plus sont-elles également celles qui consomment le plus ?
 - La production d'électricité vient-elle en majorité d'une même source d'énergie ?
 

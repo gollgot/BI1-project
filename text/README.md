@@ -3,7 +3,7 @@
 ## Introduction
 L'électricité est un sujet très intéressant car chaque pays à son propre réseau et donc des régions consommatrices et productrices. Il est difficile de se faire des idées de l'ampleur de ces quantités de GWh produits ou consommés chaque année. C'est pour cela que j'ai décidé de prendre comme sujet pour mener mon analyse : la consommation et la production d'électricité pour chaque région de France, ainsi je vais pouvoir répondre à plusieurs questions telles que :
 
-- Chaque région peut-elle est autonome au niveau de l'électricité ?
+- Chaque région peut-elle être autonome au niveau de l'électricité ?
 - Les régions qui produisent le plus sont-elles également celles qui consomment le plus ?
 - La production d'électricité vient-elle en majorité d'une même source d'énergie ?
 
@@ -33,6 +33,6 @@ Les colonnes de consommation et de production totale de ce graphique sont les m�
 Ce graphique est très intéressant car il montre que toutes les régions qui produisent beaucoup d'électricité, utilisent l'énergie nucléaire. Nous pouvons donc en déduire que le réseau électrique Français est énormément lié à ce type d'énergie.
 
 ## Conclusion
-En conclusion, nous avons pu voir que chaque région de France ne peut pas être entièrement autonome en électricité (dans un cas ou elle utiliserait uniquement l'électricité produite à l'intérieur de ses frontières).
+En conclusion, nous avons pu voir que chaque région de France ne peut pas être entièrement autonome en électricité (dans un cas où elles utiliseraient uniquement l'électricité produite à l'intérieur de ses frontières).
 
 Cependant, des choses très intéressantes sont ressorties en observant les graphiques, notamment le fait que ce n'est pas les régions les plus consommatrices qui produisent le plus, mais celles qui disposent d'une ou plusieurs centrales nucléaires.
